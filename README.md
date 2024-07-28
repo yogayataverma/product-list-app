@@ -34,18 +34,12 @@ This is a PHP-based web application that displays a list of products. It allows 
    git clone https://github.com/your-username/product-list-app.git
    ```
 
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd product-list-app
-   ```
-
-3. **Set up the database:**
+2. **Set up the database:**
 
    - Create a MySQL database.
    - Import your SQL file to set up the `products` table.
 
-4. **Configure database connection:**
+3. **Configure database connection:**
 
    Update the database connection details in the `index.php` file:
 
@@ -56,7 +50,7 @@ This is a PHP-based web application that displays a list of products. It allows 
    $password = 'your-database-password';
    ```
 
-5. **Deploy the application:**
+4. **Deploy the application:**
 
    - Copy the project files to your web server's document root (e.g., `/var/www/html` for Apache).
 
@@ -110,10 +104,6 @@ This is a PHP-based web application that displays a list of products. It allows 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
